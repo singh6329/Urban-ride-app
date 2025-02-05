@@ -20,7 +20,7 @@ phases:
 
 artifacts:
   files:
-    - target/*.jar
+    - urbanRide/target/*.jar
   discard-paths: yes
 cache:
   paths:
