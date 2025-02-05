@@ -6,6 +6,8 @@ phases:
       java: corretto21
     commands:
       - echo Installing dependencies...
+      - echo "Listing directory structure"
+      - ls -R
   pre_build:
     commands:
       - echo Pre-build phase...
@@ -20,7 +22,7 @@ phases:
 
 artifacts:
   files:
-    - urbanRide/target/*.jar
+    - urbanRide/urbanRide/target/*.jar
   discard-paths: yes
 cache:
   paths:
