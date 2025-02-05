@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - echo Building the project...
-      - mvn clean package
+      - mvn package
       - echo "Listing target directory after build"
       - ls -R target
   post_build:
