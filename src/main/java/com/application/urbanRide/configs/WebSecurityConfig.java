@@ -32,7 +32,8 @@ public class WebSecurityConfig {
             "/configuration/security",
             "/swagger-ui/**",
             "/webjars/**",
-            "/swagger-ui.html"};
+            "/swagger-ui.html",
+            "/"};
 
     private final JwtSecurityFilter jwtSecurityFilter;
 
